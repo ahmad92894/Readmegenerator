@@ -16,6 +16,14 @@ function generateMarkdown(data) {
   # ${data.Title}
     ${data.Description}
     ${data.Installation}
+    ${data.usage}
+    ${data.licenses}
+    ${data.contributing}
+    ${data.tests}
+    ${data.questions}
+   
+
+
 `;
 }
 

@@ -22,33 +22,33 @@ inquirer
       name: 'Installation',
       message: 'Installation process?',
     },
-    // {
-    //   type: 'input',
-    //   name: 'usage',
-    //   message: 'What is it used for?',
-    // },
-    // {
-    //   type: 'input',
-    //   name: 'licenses',
-    //   message: 'what license do you have?',
-    //   choices:'',
-    // },
-    // {
-    //   type: 'input',
-    //   name: 'contributing',
-    //   message: 'any contributions',
-    // },
-    // {
-    //     type: 'input',
-    //     name: 'tests',
-    //     message: 'what did you test?',
+    {
+      type: 'input',
+      name: 'usage',
+      message: 'What is it used for?',
+    },
+    {
+      type: 'input',
+      name: 'licenses',
+      message: 'what license do you have?',
+      choices:'',
+    },
+    {
+      type: 'input',
+      name: 'contributing',
+      message: 'any contributions',
+    },
+    {
+        type: 'input',
+        name: 'tests',
+        message: 'what did you test?',
         
-    //   },
-    //   {
-    //     type: 'input',
-    //     name: 'questions',
-    //     message: 'any questions',
-    //   },
+      },
+      {
+        type: 'input',
+        name: 'questions',
+        message: 'any questions',
+      },
   ])
 
   .then((response) => {
